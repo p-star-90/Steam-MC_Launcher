@@ -11,7 +11,7 @@ const sysRoot =
     ? process.env.HOME + "/Library/Application Support"
     : process.env.HOME);
 
-const dataPath = path.join(sysRoot, ".SteamMC_Launcher");
+const dataPath = path.join(sysRoot, ".SteamMC");
 
 const launcherDir = require("@electron/remote").app.getPath("userData");
 
